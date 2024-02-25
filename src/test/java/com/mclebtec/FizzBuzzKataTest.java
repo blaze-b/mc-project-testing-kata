@@ -12,7 +12,6 @@ public class FizzBuzzKataTest {
     @ValueSource(ints = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15})
     public void convert_number_to_string_test(int input) {
         String convertedValue = new FizzBuzzKata().convert(input);
-        System.out.println(convertedValue);
         Assertions.assertNotNull(convertedValue);
     }
 
